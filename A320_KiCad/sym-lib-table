@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/libraries/promicro.lib)(options "")(descr ""))
+  (lib (name A320-rescue)(type Legacy)(uri ${KIPRJMOD}/libraries/A320-rescue.lib)(options "")(descr ""))
+)
