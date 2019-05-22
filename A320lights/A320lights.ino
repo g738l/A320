@@ -21,13 +21,14 @@ void setup()
   pinMode(poswhite, OUTPUT);
   pinMode(posred, OUTPUT);
   pinMode(posgreen, OUTPUT);
-}
 
-void loop() 
-{
   analogWrite(poswhite, 1); //set light intensity
   analogWrite(posred, 10); //set light intensity
   analogWrite(posgreen, 30); //set light intensity
+}  
+  
+void loop() 
+{
   digitalWrite(strobe, HIGH);
   digitalWrite(tail, HIGH);  
   delay(50);              
