@@ -3,7 +3,7 @@
   50 ms on – 60 ms off – 50 ms on
   LED Beacon Light 2LA455968-01  100 ms on 
   LED Rearward Strobe and Navigation Light 2LA456241-00 110 ms on
-  ProMicro , ATmega32U4  5V/16MHz
+  ProMicro , ATmega32U4  3.3V/8MHz
 */  
   
 int poswhite = 10;
